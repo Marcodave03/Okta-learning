@@ -1,0 +1,2288 @@
+[
+  {
+    "id": 1,
+    "topic": "Dashboards & System Log",
+    "type": "multiple",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Which two options help end users optimize their daily workflow on the End-User Dashboard? (Choose two)",
+    "options": [
+      "Enabling auto-launch for daily-use applications",
+      "Setting up custom sections to organize their applications",
+      "Contacting an administrator to reorder their applications",
+      "Removing all sections to display applications in a single list",
+      "Disabling SSO for frequently accessed applications"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 2,
+    "topic": "Dashboards & System Log",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "How can an administrator maintain visibility over system health and security?",
+    "options": [
+      "Review activity logs submitted by end users",
+      "Export system logs on a regular basis",
+      "Disable security alerts to prevent dashboard clutter",
+      "Monitor app usage and org activity on the Admin Dashboard"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 3,
+    "topic": "Dashboards & System Log",
+    "type": "single",
+    "context": [
+      "Jun Pak contacts the help desk because he can’t sign in to Okta. You find this event in the System Log."
+    ],
+    "log": [],
+    "images": [
+      "/images/q-img1.png"
+    ],
+    "imageCaptions": [],
+    "prompt": "Based on the System Log event, what is the root cause of Jun's problem?",
+    "options": [
+      "The application server is down",
+      "He used the wrong password a single time",
+      "The system automatically locked his account after too many failed attempts",
+      "The system blocked him from trying to log in from an unauthorized country"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 4,
+    "topic": "Dashboards & System Log",
+    "type": "single",
+    "context": [
+      "Jun Pak can’t sign in to Okta. The System Log shows this event (same as the previous question)."
+    ],
+    "log": [],
+    "images": [
+      "/images/q-img1.png"
+    ],
+    "imageCaptions": [],
+    "prompt": "Based on the System Log event for Jun, how would you fix the issue?",
+    "options": [
+      "Reset his password and send him a temporary one",
+      "Instruct him to clear his browser cache and restart his computer",
+      "Unlock his user account and then ask him to sign in again",
+      "Check the status of the application server for potential outages"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 5,
+    "topic": "User Lifecycle & Profiles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "An administrator is creating an account for a new employee who has not started yet. The admin wants to set up the user account in advance, but not allow the user to sign in. Which activation option should the administrator select to achieve this?",
+    "options": [
+      "Activate now and require the user to change the password",
+      "Activate later",
+      "Activate now and set a temporary password",
+      "Activate now without setting a password"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 6,
+    "topic": "User Lifecycle & Profiles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Which user account status prevents the user from signing in but still consumes an Okta license?",
+    "options": [
+      "Pending user action",
+      "Staged",
+      "Deactivated",
+      "Suspended"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 7,
+    "topic": "User Lifecycle & Profiles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Username and First name are both required attributes on the Okta user profile that can’t be made optional.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 8,
+    "topic": "User Lifecycle & Profiles",
+    "type": "multiple",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Which fields are required when adding a custom attribute? (Choose two)",
+    "options": [
+      "Default value",
+      "Variable name",
+      "Description",
+      "Attribute length",
+      "Display name"
+    ],
+    "correct": [
+      1,
+      4
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 9,
+    "topic": "User Lifecycle & Profiles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "When you map an attribute from a profile source to Okta, which object contains the user attributes for the profile source?",
+    "options": [
+      "appuser",
+      "user"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 10,
+    "topic": "User Lifecycle & Profiles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "When you map an attribute from Okta to a downstream app, which object contains the Okta user attributes?",
+    "options": [
+      "user",
+      "appuser"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 11,
+    "topic": "User Lifecycle & Profiles",
+    "type": "matching",
+    "context": [
+      "Troubleshoot attribute mapping issues"
+    ],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "You are trying to map the Middle name attribute from the HR app to Okta, and then from Okta to the Benefits app. However, the data is not correct in the Benefits app. Match each root cause to the issue.",
+    "pairs": [
+      {
+        "left": "Some users don’t have a Middle name",
+        "right": "The Middle name is populated in the Benefits app for some (but not all) users."
+      },
+      {
+        "left": "You selected “Don’t apply updates” when you saved the mapping from Okta → Benefits App",
+        "right": "The Middle name is populated in the Benefits app for some (but not all) users."
+      },
+      {
+        "left": "The Middle name is not mapped from Okta → Benefits App",
+        "right": "The Middle name is not populated in the Benefits app for any user."
+      },
+      {
+        "left": "The Middle name is not mapped from HR App → Okta",
+        "right": "The Middle name is not populated in the Benefits app for any user."
+      },
+      {
+        "left": "You selected “Apply mapping on user create only” when you mapped the attribute from Okta → Benefits App",
+        "right": "The Middle name is populated in the Benefits app for some (but not all) users."
+      },
+      {
+        "left": "The mapping direction is incorrect. You set the mapping for Benefits App → Okta instead of Okta → Benefits App",
+        "right": "The Middle name is not populated in the Benefits app for any user."
+      }
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 12,
+    "topic": "User Lifecycle & Profiles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "You can map an attribute from the profile source directly to a downstream app.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 13,
+    "topic": "User Lifecycle & Profiles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "A profile source acts as the source of truth for user identities.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 14,
+    "topic": "User Lifecycle & Profiles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "A user left the company. How can an administrator prevent the user from signing in to Okta and automatically deprovision the user from downstream apps?",
+    "options": [
+      "Suspend the user account",
+      "Reset the password for the user account",
+      "Clear sessions for the user account",
+      "Deactivate the user account"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 15,
+    "topic": "User Lifecycle & Profiles",
+    "type": "multiple",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "When creating a user in Okta, which two fields are required by default but can be made optional in the user profile? (Choose two)",
+    "options": [
+      "First name",
+      "Secondary email",
+      "Last name",
+      "Username",
+      "Primary email"
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 16,
+    "topic": "User Lifecycle & Profiles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "An administrator needs to add a custom attribute for Emergency Contact Name to the Okta user profile. When creating the custom attribute, how can the administrator allow users to set a value for the Emergency Contact Name from their Settings?",
+    "options": [
+      "Set the User permission to Read Only",
+      "Set the User permission to Read-Write",
+      "Set the Default value to Optional",
+      "Set the Attribute required to Yes"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 17,
+    "topic": "User Lifecycle & Profiles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "An administrator needs to troubleshoot user sign-in issues. Which option on the Reports page filters the System Log for events that start with “user.account”?",
+    "options": [
+      "Provisioning activity",
+      "Authentication activity",
+      "User account activity",
+      "User lifecycle activity"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 18,
+    "topic": "User Lifecycle & Profiles",
+    "type": "single",
+    "context": [],
+    "log": [
+      "**Event**",
+      "Display Message: User login to Okta",
+      "EventType: user.session.start",
+      "**Outcome**",
+      "Reason: INVALID_CREDENTIALS",
+      "Result: FAILURE",
+      "**Target**",
+      "Display Name: Password",
+      "Type: AuthenticatorEnrollment"
+    ],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "A user can’t sign in to Okta. Based on the System Log information below, what is the root cause of the issue?",
+    "options": [
+      "The user entered the wrong password",
+      "The user is not enrolled in any authenticators",
+      "The user entered the wrong code for Okta Verify",
+      "The user exceeded the number of login attempts"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 19,
+    "topic": "User Lifecycle & Profiles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "When creating a user in Okta, which statement is TRUE for the Username field?",
+    "options": [
+      "The Username defaults to the user’s first and last name",
+      "The Username can be a maximum of 10 characters",
+      "The Username must be in the form of an email address",
+      "The Username is optional and can be left blank"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 20,
+    "topic": "User Lifecycle & Profiles",
+    "type": "multiple",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "An administrator mapped the Emergency Contact Name from the HR app (profile source) to Okta using the Apply mapping on user create and update setting. When will the attribute be pushed from the profile source to Okta? (Choose two)",
+    "options": [
+      "When a user is provisioned from Okta to a downstream app",
+      "When a user account is modified in Okta",
+      "When a user record is modified in the HR app",
+      "When a user’s account status is set to Staged",
+      "When a user is provisioned from the HR app to Okta"
+    ],
+    "correct": [
+      2,
+      4
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 21,
+    "topic": "User Lifecycle & Profiles",
+    "type": "multiple",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "When managing user account statuses, which three statuses consume an Okta user license? (Choose three)",
+    "options": [
+      "Suspended",
+      "Deactivated",
+      "Locked out",
+      "Password reset",
+      "Staged",
+      "Pending user action"
+    ],
+    "correct": [
+      0,
+      2,
+      3
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 22,
+    "topic": "User Lifecycle & Profiles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "An administrator needs to map the Region attribute from Okta to a CRM app. How can the administrator ensure the attribute is updated in the CRM app when it is modified on a user’s profile in Okta?",
+    "options": [
+      "Apply mapping on user update only",
+      "Apply mapping on user create only",
+      "Apply mapping on user activate only",
+      "Apply mapping on user create and update"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 23,
+    "topic": "User Lifecycle & Profiles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "An administrator needs to add a custom attribute for Region to the Okta user profile. When creating the custom attribute, how can the administrator set the allowed regions to AMER, APAC, and EMEA?",
+    "options": [
+      "Require that the value is unique for each user",
+      "Specify a maximum attribute length",
+      "Define an enumerated list of values",
+      "Make the attribute required"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 24,
+    "topic": "User Lifecycle & Profiles",
+    "type": "single",
+    "context": [],
+    "log": [
+      "**Event**",
+      "Display Message: User login to Okta",
+      "EventType: user.session.start",
+      "**Outcome**",
+      "Reason: LOCKED_OUT",
+      "Result: FAILURE",
+      "**Target**",
+      "Display Name: Password",
+      "Type: AuthenticatorEnrollment"
+    ],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "A user can’t sign in to Okta. Based on the System Log information below, what is the root cause of the issue?",
+    "options": [
+      "The user entered the wrong password",
+      "The user is not enrolled in any authenticators",
+      "The user entered the wrong code for Okta Verify",
+      "The user exceeded the number of login attempts"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 25,
+    "topic": "User Lifecycle & Profiles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "When creating a test user account, which option can the administrator enable to set the user status to Active and skip sending the activation email?",
+    "options": [
+      "Activate now and set the password",
+      "Activate later and don’t set the password",
+      "Activate later and set the password",
+      "Activate now and don’t set the password"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 26,
+    "topic": "User Lifecycle & Profiles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "An administrator created a user account in Okta and set the Activation to Active later. What is the status of the user account?",
+    "options": [
+      "Active",
+      "Password reset",
+      "Pending user action",
+      "Staged"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 27,
+    "topic": "Groups & Group Rules",
+    "type": "multiple",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Which three groups are good use cases for manual user assignment? (Choose three)",
+    "options": [
+      "Executives group for the executive team",
+      "All partners group for users with the Partner user type",
+      "Read-only Admins group for users with view access to the Admin Console",
+      "Pilot Users group for test users",
+      "Sales group for users in the Sales department"
+    ],
+    "correct": [
+      0,
+      2,
+      3
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 28,
+    "topic": "Groups & Group Rules",
+    "type": "single",
+    "context": [
+      "The All Partners group should contain every user whose User type is Partner. After the Partners group rule ran, Hugo Santos (a Contractor) was added to All Partners, but Jacob Watson (a Partner) was not."
+    ],
+    "log": [],
+    "images": [
+      "/images/q-img2.png",
+      "/images/q-img3.png",
+      "/images/q-img4.png"
+    ],
+    "imageCaptions": [
+      "Hugo Santos – user profile",
+      "Jacob Watson – user profile",
+      "Partners group rule"
+    ],
+    "prompt": "Review the two user profiles and the Partners group rule. How would you fix the issue?",
+    "options": [
+      "Modify the user profile for Hugo Santos",
+      "Modify the user profile for Jacob Watson",
+      "Change the IF condition for the Partners group rule",
+      "Change the THEN Assign to group for the Partners group rule"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 29,
+    "topic": "Groups & Group Rules",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "When using a basic condition based on a user attribute in a group rule, which user profile attribute can you select?",
+    "options": [
+      "Any required attribute",
+      "Any base or custom attribute",
+      "Any Read-Write attribute",
+      "Any attribute with the string data type"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 30,
+    "topic": "Groups & Group Rules",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "An organization uses these values for the userType attribute: Employee Part-time, Employee Full-time, Partner, and Contractor. An administrator needs to create a group rule using a basic condition. The rule should assign employees to the Employees group. Which condition meets the requirement?",
+    "options": [
+      "User attribute userType | string Starts with Employee",
+      "User attribute userType | string Equals Employee",
+      "User attribute userType | string Contains Employee",
+      "User attribute userType | string Equals employee"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 31,
+    "topic": "Groups & Group Rules",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "An organization uses a custom attribute, securityLevel, to track security clearance levels. An administrator needs to create a group rule that assigns users with a security clearance of 8 or higher to the High_Security group. Which expression meets this requirement?",
+    "options": [
+      "user.securityLevel >= 8",
+      "user.securityLevel > 8",
+      "user.securityLevel == 8",
+      "user.securityLevel != 8"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 32,
+    "topic": "Groups & Group Rules",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "What is a consideration when using the Okta Administrators default group?",
+    "options": [
+      "The Okta Administrators group can be used in security policies to strengthen authentications for administrators",
+      "A super administrator can assign applications to the Okta Administrators group",
+      "A super administrator can assign administrator roles to the Okta Administrators group",
+      "Okta uses the Okta Administrators group in the default authenticator enrollment policy"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 33,
+    "topic": "Groups & Group Rules",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "An organization uses three values for the userType attribute: Employee, Partner, and Contractor. An administrator needs to create a group rule that assigns all non-employees to the External group. Which expression meets the requirement?",
+    "options": [
+      "user.userType==”Partner” AND user.userType=”Contractor”",
+      "user.userType!=”Employee”",
+      "String.stringContains(user.userType, “Employee”)",
+      "String.startsWith(user.userType, “Contractor”)"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 34,
+    "topic": "Groups & Group Rules",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "What is a use case for manually assigning a user to a group?",
+    "options": [
+      "Group synced from the HR system",
+      "Groups with users who belong to another group",
+      "Groups with users who share common attributes",
+      "Groups with administrative privileges"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 35,
+    "topic": "Groups & Group Rules",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "The department attribute is set to Sales for the entire sales team. An administrator created a group rule to assign these users to the Sales group. The administrator set the condition to this User attribute department | string Equals sales. After activating the rule, the Sales group contains zero members. What is the root cause of the issue?",
+    "options": [
+      "The basic condition should be based on group membership instead of user attribute",
+      "The attribute should be division | string instead of department | string",
+      "The value is case-sensitive and must match the value on the user profile",
+      "The operator should be Starts with instead of Equals"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 36,
+    "topic": "Groups & Group Rules",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "An administrator needs to create a group rule that assigns suspended users to the Suspended_Users group. Which expression meets this requirement?",
+    "options": [
+      "user.status==”suspended”",
+      "user.status==”SUSPENDED”",
+      "user.getInternalProperty(“status”)== “SUSPENDED”",
+      "user.getInternalProperty(“status”)== “suspended”"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 37,
+    "topic": "Groups & Group Rules",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "What happens when an administrator deletes a group rule?",
+    "options": [
+      "Okta prompts for whether to remove or keep users",
+      "Okta keeps users added by the group rule",
+      "Okta removes users manually added to the group",
+      "Okta removes users added by the group rule"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 38,
+    "topic": "Groups & Group Rules",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "An administrator needs to assign administrative tasks to a group of IT employees. How can the administrator accomplish this?",
+    "options": [
+      "Assign a global session policy to the group",
+      "Assign an authentication policy to the group",
+      "Assign an administrator role to the group",
+      "Assign an application to the group"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 39,
+    "topic": "Groups & Group Rules",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "An administrator needs to create a group rule using a basic condition. The rule should assign users in the NA Sales or LATAM Sales group to the AMER Sales group. Which condition meets the requirement?",
+    "options": [
+      "Group membership includes any of the following AMER Sales",
+      "User attribute groupMember | string Equals NA Sales, LATAM Sales",
+      "Group membership includes any of the following NA Sales, LATAM Sales",
+      "User attribute groupMember | string Equals AMER Sales"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 40,
+    "topic": "Groups & Group Rules",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "What happens when an administrator deactivates a group rule?",
+    "options": [
+      "Users who no longer match the rule are removed from the group",
+      "Users who start matching the rule are added to the group",
+      "Users added by the rule cannot be manually removed from the group",
+      "Users who were previously added by the rule stay in the group"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 41,
+    "topic": "Groups & Group Rules",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "What is a consideration when using the Everyone default group?",
+    "options": [
+      "Assigning an application to the Everyone group violates the principle of least privilege",
+      "A super administrator can permanently delete the Everyone group",
+      "Okta assign the Everyone group to a new app sign-in policy by default",
+      "A super administrator can assign administrator roles to the Everyone group"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 42,
+    "topic": "Administrator Roles",
+    "type": "single",
+    "context": [
+      "**Case study: The Salesforce Lead**",
+      "Your Salesforce lead currently relies on IT tickets to manage user access for the Salesforce application, creating a bottleneck for the Sales team. You want to empower your lead to manage Salesforce assignments directly in Okta while strictly limiting access to only that application."
+    ],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Decision point: Which standard administrator role should you assign to the Salesforce lead?",
+    "options": [
+      "Report Administrator",
+      "API Access Management Administrator",
+      "Application Administrator",
+      "Access Requests Administrator"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 43,
+    "topic": "Administrator Roles",
+    "type": "single",
+    "context": [
+      "**Case Study: Regional management**",
+      "An IT administrator needs to add and remove users for groups specific to the APAC region. The administrator should not be able to perform user-related tasks for group members, such as deactivating users and resetting passwords."
+    ],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Decision point: Which standard administrator role should you assign to the IT administrator?",
+    "options": [
+      "Group Administrator",
+      "Group Membership Administrator",
+      "Help Desk Administrator",
+      "Access Certifications Administrator"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 44,
+    "topic": "Administrator Roles",
+    "type": "single",
+    "context": [
+      "**Case Study: Full administrative permissions**",
+      "An IT administrator needs to perform administrative tasks for an Okta org and have full management access. This includes granting access to Okta Support and managing administrators."
+    ],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Decision point: Which standard administrator role should you assign to the IT administrator?",
+    "options": [
+      "Organization Administrator",
+      "Read-only Administrator",
+      "Super Administrator",
+      "Workflows Administrator"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 45,
+    "topic": "Administrator Roles",
+    "type": "multiple",
+    "context": [
+      "**Case study: Application assignment**",
+      "The IT department wants to delegate application assignment by tier. They can’t assign the Application Administrator standard role because it provides too much power. Administrators should only be able to assign applications to users and groups. They shouldn’t have the permissions to create, edit, or delete the application.",
+      "• Tier 1: The core security team can manage access to critical applications, such as Workday and CrowdStrike.",
+      "• Tier 2: The general help desk can manage access to general business applications, such as Slack and Zoom."
+    ],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Decision point: You need to create a custom administrator role called Application: Edit Application Assignments. Which Application permissions should you select? Choose two.",
+    "options": [
+      "View applications and their details",
+      "Manage applications",
+      "Edit application’s user or group assignment",
+      "View and edit application’s Universal Logout settings",
+      "View client credentials"
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 46,
+    "topic": "Administrator Roles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Decision point: You need to create a resource set called Tier 1 Applications. Which resource type should you select? Choose one.",
+    "options": [
+      "Users",
+      "Groups",
+      "Applications",
+      "Identity and Access Management"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 47,
+    "topic": "Administrator Roles",
+    "type": "matching",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Decision point: Map the resource set to the corresponding role.",
+    "pairs": [
+      {
+        "left": "Application: Edit Application Assignment",
+        "right": "Tier 1 Applications"
+      },
+      {
+        "left": "User: Edit User Application Assignment",
+        "right": "All Users"
+      },
+      {
+        "left": "Group: Edit Group Application Assignments",
+        "right": "All Groups"
+      }
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 48,
+    "topic": "Administrator Roles",
+    "type": "single",
+    "context": [
+      "**Case study: Troubleshooting**",
+      "An administrator is trying to set up a new custom administrator role that allows administrators to manage users and change their group membership. The administrator added these components:",
+      "• A role with the Manage Users and Manage Group Membership permissions",
+      "• A resource set with the All users resource",
+      "When the administrator tries to assign this role and resource set to a group, Okta displays a warning message: The resource set includes resources that are not affected by the role's permissions."
+    ],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Decision point: Based on the configuration, what is the root cause of the warning message? Choose one.",
+    "options": [
+      "The administrator does not have the super administrator role to create the assignment",
+      "The resource set is too large and has exceeded the maximum user limit",
+      "The custom administrator role contains both user and group permission, but the resource set only contains the user resource type",
+      "The user assigned the role is already a member of the target group"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 49,
+    "topic": "Administrator Roles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "When delegating application assignments to a regional team, why is the Manage applications permission considered a poor choice compared to Edit application’s user or group assignment",
+    "options": [
+      "It grants excessive power to create, edit, or delete the applications",
+      "It requires the Super Administrator role to be active",
+      "It lacks the ability to view client credentials",
+      "It prevents the administrator from viewing Universal Logout settings"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 50,
+    "topic": "Administrator Roles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Which component contains the individual permissions to grant to an administrator?",
+    "options": [
+      "Permission group",
+      "Resource type",
+      "Standard administrator role",
+      "Custom administrator role"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 51,
+    "topic": "Administrator Roles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "An administrator needs the permissions to view all groups. How can a super administrator assign administrator roles and resource sets to the administrators to ensure least-privileged access?",
+    "options": [
+      "Assign a custom administrator role with the manage groups permission. Then, assign a resource set with the Users resource type",
+      "Assign the standard Read-only Administrator role. Then, assign a resource set with the Users resource type",
+      "Assign a custom administrator role with the view groups permission. Then, assign a resource set with the Groups resource type",
+      "Assign the Group Administrator standard role. Then, assign a resource set with the Groups resource type"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 52,
+    "topic": "Administrator Roles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "The IT team wants to ensure that application administrators are assigned the Application Administrator role only when they need to modify application settings. Which solution automates this process?",
+    "options": [
+      "Disable Admin Console access and require the administrator to use the Okta API",
+      "Configure a Group rule to automatically add the user to the Application Administrators group",
+      "Use Okta Access Requests to provide time-bound access that automatically expires",
+      "Use Okta Access Certifications to automatically verify administrator role assignments"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 53,
+    "topic": "Administrator Roles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "What is a technical disadvantage of assigning a standard administrator role to an individual rather than a group when that administrator is reactivated after a temporary leave?",
+    "options": [
+      "Okta automatically converts the individual assignment into a group assignment upon reactivation",
+      "Group-based assignments are restored automatically, but individual assignments must be manually reassigned",
+      "Individual assignments trigger a super administrator lockout if the user is inactive for more than 30 days",
+      "Individual assignments are excluded from the Admin role assignments report, making them impossible to audit"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 54,
+    "topic": "Administrator Roles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Which report provides an audit of all users with administrative privileges, including the assigned standard administrator roles, permissions, and resource sets?",
+    "options": [
+      "Okta Usage Dashboard",
+      "Application Access Audit",
+      "Admin role assignments",
+      "User account activity"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 55,
+    "topic": "Administrator Roles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "An organization has only one super administrator. The administrator left the company. What is the primary security risk when that administrator’s account is deactivated in the company’s HR system?",
+    "options": [
+      "Okta automatically promotes the most senior Help Desk administrator to the Super Administrator role",
+      "All existing administrative permissions are suspended until a new super administrator is verified",
+      "The account remains active in Okta because Okta prevents the last super administrator from being deactivated",
+      "The Okta org enters a Read-Only state, preventing any configuration changes"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 56,
+    "topic": "Administrator Roles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "After creating a custom role with the Manage Group Membership permissions and assigning it to the resource set constrained by users, Okta displays a warning that the resources are not affected by the role’s permissions. What is the cause?",
+    "options": [
+      "The user assigned the role is a member of the target group",
+      "The group has exceeded the 50-member limit for administrative groups",
+      "The resource set lacks the Group resource type required by the role’s permissions",
+      "The administrator does not have Super administrator role to complete the assignment"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 57,
+    "topic": "Administrator Roles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "An IT administrator needs to manage group membership and perform user-related tasks for group members, such as deactivating users and resetting passwords. Which standard administrator role should a super administrator assign?",
+    "options": [
+      "Help Desk Administrator",
+      "Group Administrator",
+      "Group Membership Administrator",
+      "Organization Administrator"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 58,
+    "topic": "Administrator Roles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "An administrator needs to edit user’s lifecycle states for users in the Contractors group. What resource should a super administrator select in the resource set?",
+    "options": [
+      "Contractors group",
+      "All group",
+      "Users in the Contractor’s group",
+      "All users"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 59,
+    "topic": "Administrator Roles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "You are creating a custom role with the “Edit users’ group membership” permission. Which additional permission is required?",
+    "options": [
+      "View groups",
+      "View client credentials",
+      "Manage applications",
+      "Create users"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 60,
+    "topic": "Administrator Roles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "An administrator wants to assign the Group Membership Administrator role to a group managed by a group rule. Why can’t the administrator save the assignment?",
+    "options": [
+      "Administrator roles can only be assigned to manually managed groups",
+      "The group has exceeded the 50-member limit for administrative groups",
+      "The Group Membership Administrator role can only be assigned to a person and not to a group",
+      "Standard administrator roles are restricted to individual user assignments"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 61,
+    "topic": "Administrator Roles",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "A regional administrator needs to reset passwords, unlock accounts, and clear user sessions for the Marketing-APAC group, but must not be able to manage group memberships. Which standard administrator role should a super administrator assign?",
+    "options": [
+      "Group Administrator",
+      "Help Desk Administrator",
+      "User Administrator",
+      "Organization Administrator"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 62,
+    "topic": "Authenticators & Assurance",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Which of the following is an example of an authenticator method with device bound and hardware protected characteristics?",
+    "options": [
+      "Email",
+      "Phone",
+      "Okta Verify Push",
+      "Okta Verify TOTP"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 63,
+    "topic": "Authenticators & Assurance",
+    "type": "multiple",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Okta requires assurance levels to be satisfied before granting end-user access to an application. These assurance levels can be specified in which of the following policies. (Select two.)",
+    "options": [
+      "Password Policies",
+      "Authentication Policies",
+      "Global Session Policies",
+      "Profile Enrollment Policies",
+      "Authenticator Enrollment Policies"
+    ],
+    "correct": [
+      1,
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 64,
+    "topic": "Authenticators & Assurance",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "What is assurance in the context of Okta's Security Policy Framework?",
+    "options": [
+      "The order in which policies are evaluated for a context match",
+      "The level of confidence that a system's security requirements are met",
+      "The degree of complexity in password policies",
+      "The process of enrolling in multiple authenticators"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 65,
+    "topic": "Authenticators & Assurance",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "What determines the evaluation order of policies or rules for a context match in Okta?",
+    "options": [
+      "The time of creation of each policy",
+      "The number of rules within each policy",
+      "The alphabetical order of policy names",
+      "The priority assigned to each policy or rule"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 66,
+    "topic": "Authenticators & Assurance",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "An Okta administrator needs to configure access to a highly sensitive application. Access must have a high assurance level for authentication, which includes using phishing-resistant authenticators. The available authenticators are a password, security question mobile app one-time passcode (OTP), and a WebAuthn-enabled biometric device. Which combination of authenticators should the administrator choose to meet this requirement?",
+    "options": [
+      "Password and mobile app OTP",
+      "WebAuthn-enabled biometric device and mobile app OTP",
+      "Mobile app OTP and security question",
+      "WebAuthn-enabled biometric device and password"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 67,
+    "topic": "Authenticators & Assurance",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "An administrator needs to configure the assurance level for a scenario that involves moderate risk and requires at least two different authenticators from separate factor categories. Which assurance level should the administrator use?",
+    "options": [
+      "Critical assurance",
+      "High assurance",
+      "Low assurance",
+      "Medium assurance"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 68,
+    "topic": "Authenticators & Assurance",
+    "type": "multiple",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Which two factors determine the level of trust that can be established during user verification in Okta? (Choose two.)",
+    "options": [
+      "The frequency of multifactor authentication prompts",
+      "The strength of the credential validation mechanism",
+      "The robustness of the identity proofing process",
+      "The duration since the last successful login attempt",
+      "The longevity of the user’s active session"
+    ],
+    "correct": [
+      1,
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 69,
+    "topic": "Authenticators & Assurance",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Which two authenticators, when combined, can provide a high assurance level in Okta’s authentication framework?",
+    "options": [
+      "FIDO2 security key and a mobile app OTP",
+      "A password and an email-based verification code",
+      "Duo Security and a mobile app OTP",
+      "A security question and custom OTP"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 70,
+    "topic": "Authenticators & Assurance",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Which policy type controls how end users enroll in an authenticator?",
+    "options": [
+      "Global session policies",
+      "MFA enrollment policies",
+      "Password policies",
+      "Authentication policies"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 71,
+    "topic": "Authenticators & Assurance",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "How does Okta’s assurance technology help balance security and user experience?",
+    "options": [
+      "By eliminating authentication requirements",
+      "By requiring multi-factor authentication (MFA) for logins",
+      "By using the same authentication method across applications",
+      "By adjusting authentication based on risk and app criticality"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 72,
+    "topic": "Authenticators & Assurance",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "A user belongs to both the Sales and Finance groups. The Finance group has a more restrictive global session policy and is placed at the top of the policy list. What will happen when this user logs in?",
+    "options": [
+      "Both policies will be applied simultaneously",
+      "The Sales group policy will be applied",
+      "The Finance group policy will be applied",
+      "The user will be prompted to choose which policy to follow"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 73,
+    "topic": "Authenticators & Assurance",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "What does Okta’s assurance technology reduce for non-critical applications?",
+    "options": [
+      "User engagement",
+      "Authentication methods",
+      "Factor prompts",
+      "Security threats"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 74,
+    "topic": "Authenticators & Assurance",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "When a user belongs to multiple groups, each with its own password policy, how does Okta determine which policy to apply?",
+    "options": [
+      "The first policy in the priority order that matches one of the user’s group is applied",
+      "The policy from the most recently joined group is applied",
+      "The policy with the most restrictive settings from among the user’s group is always applied",
+      "All policies from all group the user belongs to are combined"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 75,
+    "topic": "Authenticators & Assurance",
+    "type": "matching",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Match the components of the Okta security policy framework with their description",
+    "pairs": [
+      {
+        "left": "Policies",
+        "right": "Sets of guidelines that control how users access resources by defining security measures"
+      },
+      {
+        "left": "Default policies",
+        "right": "Sets of guidelines that are last in priority and have a catchall rule"
+      },
+      {
+        "left": "Rules",
+        "right": "The conditions of policy behavior and triggers"
+      },
+      {
+        "left": "Assurance levels",
+        "right": "The degrees of confidence in the security needs being satisfied"
+      }
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 76,
+    "topic": "Authenticators & Assurance",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "What is the purpose of assurance in the Okta security framework?",
+    "options": [
+      "To simplify the user login process",
+      "To generate confidence in the effectiveness of implemented controls",
+      "To replace existing authentication methods",
+      "To add additional security controls"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 77,
+    "topic": "Authenticators & Assurance",
+    "type": "matching",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Match the assurance concepts with their definitions",
+    "pairs": [
+      {
+        "left": "Method characteristic",
+        "right": "An attribute of an authentication method that affects the security and user experience"
+      },
+      {
+        "left": "Assurance level",
+        "right": "A measure of confidence in the user’s identity"
+      },
+      {
+        "left": "Authenticator",
+        "right": "Devices or methods by which users prove their identity to the system during the authentication process"
+      },
+      {
+        "left": "Factor type",
+        "right": "The category of verification, such as possession and knowledge"
+      }
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 78,
+    "topic": "Security Policies",
+    "type": "multiple",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Which two factors does Okta inspect to determine the authentication methods offered to the user? (Choose two)",
+    "options": [
+      "Number of past failed login attempts",
+      "Device information",
+      "Network context",
+      "Password complexity and strength",
+      "Authenticator enrollment status"
+    ],
+    "correct": [
+      1,
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 79,
+    "topic": "Security Policies",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "How does Okta evaluate authentication policies compared to other policy types?",
+    "options": [
+      "Authentication policies are evaluated randomly among all policy types",
+      "Authentication policies are always evaluated first",
+      "Authentication policies apply to specific apps and are evaluated when accessing them",
+      "Authentication policies are evaluated before global session policies in most cases"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "Global session policies are evaluated first, when the user signs in to Okta. Authentication policies are app-level and are evaluated each time the user accesses an app.",
+    "corrected": true
+  },
+  {
+    "id": 80,
+    "topic": "Security Policies",
+    "type": "multiple",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Which are the purposes of an authenticator enrollment policy?",
+    "options": [
+      "Controls how end users enroll in authenticators",
+      "Controls how end users interact with an application",
+      "Determines which authenticators are optional to set up",
+      "To allow users to reset their Okta passwords without admin support",
+      "Determines which authenticators are required for administrators when they sign into Okta"
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 81,
+    "topic": "Security Policies",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "If no authenticator enrollment policy is configured, the default policy enforces enrollment during Okta sign-on.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 82,
+    "topic": "Security Policies",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Preset authentication policies are only available for certain types of applications.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 83,
+    "topic": "Security Policies",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Which of the following statement is correct about authentication policies?",
+    "options": [
+      "They cannot be shared across multiple applications.",
+      "They serve the same purpose as global session policies.",
+      "They are evaluated if a valid Okta session already exists.",
+      "They determine the types of authentication challenges for global sessions."
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 84,
+    "topic": "Security Policies",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Global session policies are evaluated after authentication policies.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 85,
+    "topic": "Security Policies",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "What do Global Session policies control in Okta?",
+    "options": [
+      "The frequency of re-authentication.",
+      "The duration of an overall session.",
+      "The number of authentication factors required for login.",
+      "The authentication methods allowed for accessing the Okta org."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 86,
+    "topic": "Security Policies",
+    "type": "multiple",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "What settings can administrators configure in a password policy?",
+    "options": [
+      "User access permissions",
+      "Self-service recovery options",
+      "Email notification preferences",
+      "Multi-factor authentication requirements",
+      "Password complexity and length requirements"
+    ],
+    "correct": [
+      1,
+      4
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 87,
+    "topic": "Security Policies",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "All self-service recovery authenticators can be used for authentication",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 88,
+    "topic": "Security Policies",
+    "type": "multiple",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Which two options can be configured in an MFA enrollment policy? (Choose two)",
+    "options": [
+      "Authenticator lifecycle management",
+      "Required authenticators",
+      "Enrollment location restrictions",
+      "Enrollment devices",
+      "Enrollment frequency"
+    ],
+    "correct": [
+      1,
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 89,
+    "topic": "Security Policies",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "What happens when a user attempts to access Okta org and the conditions specified in the global session policy are not met?",
+    "options": [
+      "The user is granted limited access",
+      "The user is logged out",
+      "The user is prompted to re-authenticate",
+      "The user is redirected to the help page"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 90,
+    "topic": "Security Policies",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "An administrator can manage all of a user’s authenticators except for which action?",
+    "options": [
+      "Disable specific authenticators for a user",
+      "Enroll in authenticators on behalf of the user",
+      "Enroll a user in all authenticators upon their next login",
+      "Reset a user’s enrolled authenticators"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 91,
+    "topic": "Security Policies",
+    "type": "multiple",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Which three options are valid for initiating self-service account recovery? (Choose three)",
+    "options": [
+      "Phone",
+      "Okta Verify OTP",
+      "Yubikey",
+      "Okta Verify Push",
+      "Email",
+      "Security question"
+    ],
+    "correct": [
+      0,
+      3,
+      4
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 92,
+    "topic": "Security Policies",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Which statement is true regarding the preset authentication policies for first-party apps in an Okta org?",
+    "options": [
+      "You can switch the policy of the Okta Browser Plugin with the Okta Admin Console policy",
+      "Preset policies for first-party apps in an Okta org can NOT be modified after initial setup",
+      "The Okta Admin Console policy can Not be switched or shared with other apps",
+      "Each first-party app must have its own unique authentication policy that cannot be shared"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 93,
+    "topic": "Security Policies",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Which factor is NOT a consideration when selecting authenticators based on security risk assessments for an organization?",
+    "options": [
+      "Resistance to phishing and man-in-the-middle attacks",
+      "Cryptographic strength of the authentication protocol",
+      "Support for FIDO2 standards and WebAuthn",
+      "The branding of the authenticator app"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 94,
+    "topic": "Security Policies",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Which component is required when creating a new global session policy?",
+    "options": [
+      "A factor type requirement",
+      "An assigned application",
+      "A network zone definition",
+      "At least one rule"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 95,
+    "topic": "Security Policies",
+    "type": "single",
+    "context": [
+      "An administrator has configured the following policies:",
+      "• Authenticator enrollment policy: Okta Verify is set as optional, phone authentication is disabled",
+      "• Password policy: An email and a security question for self-service recovery are required"
+    ],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "When a new user logs in for the first time, which scenario will occur?",
+    "options": [
+      "The user will be prompted to set up an email and a security question, and will be given the option to set up Okta Verify",
+      "The user will be prompted to set up an email question and a security question, and will be given the option to set up Okta Verify or Phone",
+      "The user will be prompted to set up an email question and a security question, but NOT Okta Verify or phone",
+      "The user will be prompted to set up Okta Verify as the sole authenticator"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 96,
+    "topic": "Security Policies",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "How is the password authenticator treated in Okta orgs?",
+    "options": [
+      "It is used for account recovery but NOT for primary authentication",
+      "It is automatically disabled in favor of other authenticators",
+      "It is active by default and considered one of the authenticators",
+      "It must be manually enabled by an administrator"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 97,
+    "topic": "Security Policies",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "An organization wants to implement a granular approach to authentication across different applications. Which strategy achieves this goal while maintaining flexibility?",
+    "options": [
+      "Use a few policies with varying security levels and share them across apps",
+      "Use the global session policy for all application access",
+      "Create unique authentication policies for each individual application",
+      "Create a single authentication policy and apply it to all application"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 98,
+    "topic": "Security Policies",
+    "type": "multiple",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Which three statements are true regarding self-service account recovery in Okta? (Choose three)",
+    "options": [
+      "It can only be performed from devices previously registered with Okta Verify",
+      "It is automatically enabled for all users in an Okta organization",
+      "It can be restricted based on the user’s IP address or location",
+      "It can be configured to require multiple factors for verification",
+      "It allows users to reset their Okta passwords without administrator intervention",
+      "It requires a security question as the second factor"
+    ],
+    "correct": [
+      2,
+      3,
+      4
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 99,
+    "topic": "Security Policies",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Which action should an administrator take to require hardware-protected possession factors for Okta Admin Console access?",
+    "options": [
+      "Modify the Global Session Policy to require hardware-protected factors",
+      "Create a new Authentication Policy for the Okta Admin Console with hardware-protected factors",
+      "Edit the Okta Admin Console Authentication Policy to set the possession factor as hardware-protected",
+      "Configure the Password Policy to require hardware-protected factors"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 100,
+    "topic": "Security Policies",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Which statement is true regarding session settings that can help reduce the risk of session hijacking?",
+    "options": [
+      "Session idle timeout helps prevent unauthorized access to unattended sessions",
+      "Disabling persistent session cookies prevents data loss when the browser is closed",
+      "Longer session lifetimes result in better security",
+      "Session settings do NOT apply to first-party Okta applications"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 101,
+    "topic": "Security Policies",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "An administrator has configured an authenticator challenge for all users signing into Okta from any location. The administrator has NOT created any specific enrollment policies. What is likely to happen when a user who has NOT enrolled in any authenticators tries to sign in?",
+    "options": [
+      "The user will be able to sign in without any MFA challenge",
+      "The user will be prompted to enroll in an authenticator during the sign-in flow",
+      "The authentication policy will be ignored, and the user will sign in with just a password",
+      "The user will be blocked from signing in until an administrator manually enrolls them in an authenticator"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "The default authenticator enrollment policy still applies, so the user is asked to enroll in an authenticator during sign-in. Administrators cannot enroll authenticators for a user.",
+    "corrected": true
+  },
+  {
+    "id": 102,
+    "topic": "Security Policies",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "Which statement describes the interaction between global session policies and authentication policies in Okta?",
+    "options": [
+      "If a global session policy requires MFA, users might NOT be prompted for MFA again by the authentication policy during the same session",
+      "Global session policies and authentication policies function independently, so users might be required to complete MFA twice during a session",
+      "Global session policies override authentication policies, so authentication policies are NOT applied if a global session policy is in place",
+      "Authentication policies take precedence over global session policies, so global session policies are ignored if an authentication policy is active"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "",
+    "corrected": false
+  },
+  {
+    "id": 103,
+    "topic": "Security Policies",
+    "type": "single",
+    "context": [],
+    "log": [],
+    "images": [],
+    "imageCaptions": [],
+    "prompt": "How do authentication policies differ from global session policies in Okta?",
+    "options": [
+      "Authentication policies are evaluated first, followed by global session policies",
+      "Authentication policies are limited to using possession and inherence factors, whereas global session policies can use factors from any category",
+      "Authentication policies control password requirements, and global session policies manage MFA",
+      "Authentication policies apply only to applications, but global session policies apply to the entire Okta org"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "Global session policies control access to the Okta org itself and are evaluated first. Authentication policies are app-level and are evaluated next.",
+    "corrected": true
+  }
+]
